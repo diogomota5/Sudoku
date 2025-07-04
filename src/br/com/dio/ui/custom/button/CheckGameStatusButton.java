@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 public class CheckGameStatusButton extends JButton {
 
     public CheckGameStatusButton(ActionListener actionListener){
-        this.setText("Verifiar jogo");
+        this.setText("Verificar jogo");
         this.addActionListener(actionListener);
     }
 }
